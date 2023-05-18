@@ -1,0 +1,25 @@
+.favorite-bar{
+  border-top:  1px white solid;
+  border-bottom: 1px white solid;
+  border-left: 1px white solid;
+  border-radius: 10px 0 0 10px;
+  background-color: #1d1d1d;
+  display: flex;
+  padding: 2vh;
+}
+
+.favorite-link{
+  border-bottom: 1px solid;
+  padding: 1vh;
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+  font-family: "karma future", serif;
+}
+
+.favorite-link:hover{
+  border-bottom: 1px white solid;
+  border-radius: 10px;
+  background-color: #2a465c;
+  box-shadow: 0 0 10px #316d92;
+}

@@ -1,0 +1,16 @@
+.card-grid{
+  display: grid;
+  grid-template-columns: auto 30vh;
+  grid-template-rows: repeat(3, 0.1fr);
+  column-gap: 5vh;
+  row-gap: 3vh;
+  align-items: center;
+}
+
+.definition{
+  width: 1fr;
+  height: 10vh;
+  font-size: 2vh;
+  resize: none;
+  color: #fff;
+}

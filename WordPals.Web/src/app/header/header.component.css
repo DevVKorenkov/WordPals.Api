@@ -1,0 +1,37 @@
+.nav-bar {
+  border-right: 1px #fff solid;
+  background-color: #1d1d1d;
+  display: flex;
+  padding: 2vh;
+}
+
+.nav-link{
+  padding: 1vh;
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+  font-family: "small-pixel7", serif;
+}
+
+.nav-link:hover {
+  outline: none !important;
+  background-color: #2a465c;
+  animation: button-hover-hop 300ms, button-hover-color 550ms;
+  box-shadow: 0 0 1vh #316d92;
+}
+
+/* Animations */
+
+@keyframes button-hover-hop {
+  0% {transform: translate(0, 0);}
+  50% {transform: translate(0, -5px);}
+}
+
+@keyframes button-hover-color {
+  from{background-color: transparent}
+  to{background-color: #2a465c}
+}
+
+
+
+

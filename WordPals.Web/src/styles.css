@@ -1,0 +1,180 @@
+@font-face {
+  font-family: 'Big Pixel demo';
+  src: url('~src/Fonts/Big Pixel Shadowed Demo/Big Pixel demo.otf');
+}
+
+@font-face {
+  font-family: 'atlantis';
+  src: url('~src/Fonts/atlantis/atlantis.text-regular.otf');
+}
+
+@font-face {
+  font-family: 'karma future';
+  src: url('~src/Fonts/karma future/karma.future-regular.otf');
+}
+
+@font-face {
+  font-family: 'playmegames';
+  src: url('~src/Fonts/playmegames/playmegames.reguler.otf');
+}
+
+@font-face {
+  font-family: 'small-pixel7';
+  src: url('~src/Fonts/small-pixel7/small-pixel7.regular.ttf');
+}
+
+*{
+  font-family: "atlantis", serif;
+  color: white;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+*::selection{
+  background-color: #2a465c;
+}
+
+html{
+  background-color: #1d1d1d;
+}
+
+/* Template */
+
+.container{
+  width: 70%;
+  margin: 0 auto;
+}
+
+.full-centered{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.column{
+  display: flex;
+  flex-direction: column;
+}
+
+.full-height{
+  display: flex;
+  height: 100vh;
+}
+
+.space-inside{
+  display: flex;
+  justify-content: space-between;
+}
+
+.row {
+  display: flex;
+}
+
+.space-between{
+  justify-content: space-between;
+}
+
+/* Visual */
+
+.paragraph-text{
+  font-size: 3vh;
+}
+
+.text-field{
+  border: 1px #fff solid;
+  background-color: #1d1d1d;
+  color: #fff;
+  height: 5vh;
+  font-size: 4vh;
+}
+.border{
+  border: 1px #fff solid;
+  padding: 5vh;
+}
+
+.border:hover{
+  outline: none !important;
+  box-shadow: 0 0 20px #316d92;
+}
+.shadow {
+  outline: none !important;
+  box-shadow: 0 0 20px #316d92;
+}
+
+.shadow-hover {
+  transition: box-shadow 300ms;
+}
+
+.shadow-hover:hover {
+  box-shadow: 0 0 20px #316d92;
+}
+
+.shadow-focus {
+  transition: box-shadow 300ms;
+}
+.shadow-focus:focus{
+  box-shadow: 0 0 20px #316d92;
+}
+
+label{
+  font-size: 20px;
+  color: white;
+}
+
+.btn {
+  border: #fff;
+  height: 3vh;
+  cursor: pointer;
+}
+
+.btn-submit {
+  color: #fff;
+  background-color: #2a465c;
+}
+
+/* Size*/
+
+.width-25{
+  width: 25vh;
+}
+
+.width-50{
+  width: 50vh;
+}
+
+.width-75{
+  width: 75vh;
+}
+
+.width-100{
+  width: 100vh;
+}
+
+.height-25{
+  height: 25vh;
+}
+
+.height-50{
+  height: 50vh;
+}
+
+.height-75{
+  height: 75vh;
+}
+
+.height-100{
+  height: 100vh;
+}
+
+/* Margin */
+
+.margin-bottom-1{
+  margin-bottom: 1vh;
+}
+
+.margin-bottom-5{
+  margin-bottom: 5vh;
+}
+
+
